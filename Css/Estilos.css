@@ -35,7 +35,7 @@ li{
 
 .Video1{
     margin-top: -30px;
-    width: 1605px;
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
@@ -52,6 +52,7 @@ li{
 
 .Section1{
     position: relative;
+    width: 100%;
 }
 
 .TituloRe{
