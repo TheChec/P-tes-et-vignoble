@@ -20,12 +20,12 @@
     list-style: none;
     display: flex;
     padding-left: -1px;
-    margin-left: 4%;
+    margin-left: 25%;
    
 }
 li{    
     display: flex;
-    margin: 15px 80px;
+    margin: 15px 15px;
 }
 
 .Logosi{
