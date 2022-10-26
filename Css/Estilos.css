@@ -85,6 +85,7 @@ li{
 }
 
 .Prod1, .Prod2, .Prod3{
+    margin-left: 2%;
     line-height: 63.6%;
     margin-top: 15px;
     font-size:65px;
@@ -93,6 +94,7 @@ li{
     position: absolute;
 }
 .Prod4, .Prod5, .Prod6{
+    margin-left: 2%;
     line-height: 63.6%;
     margin-top: 15px;
     font-size:65px;
@@ -101,6 +103,7 @@ li{
     position: absolute;
 }
 .Prod7, .Prod8, .Prod9{
+    margin-left: 2%;
     line-height: 63.6%;
     margin-top: 15px;
     font-size:65px;
@@ -109,6 +112,7 @@ li{
     position: absolute;
 }
 .Prod10, .Prod11, .Prod12{
+    margin-left: 2%;
     line-height: 63.6%;
     margin-top: 15px;
     font-size:65px;
@@ -117,6 +121,7 @@ li{
     position: absolute;
 }
 .Prod13, .Prod14, .Prod15{
+    margin-left: 2%;
     line-height: 63.6%;
     margin-top: 15px;
     font-size:65px;
