@@ -62,6 +62,20 @@ li{
 
     text-align: center;
 }
+.TituloPa{
+    font-size: 100px;
+    font-weight: 100;
+    margin: px 0;
+
+    text-align: center;
+}
+.TituloPi{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 50px 0;
+
+    text-align: center;
+}
 
 .Section2{
     display: flex;
@@ -71,20 +85,120 @@ li{
 }
 
 .Prod1, .Prod2, .Prod3{
-    margin-top: -2px;
+    line-height: 63.6%;
+    margin-top: 15px;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.Prod4, .Prod5, .Prod6{
+    line-height: 63.6%;
+    margin-top: 15px;
+    font-size:65px;
+    font-weight: 100;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.Prod7, .Prod8, .Prod9{
+    line-height: 63.6%;
+    margin-top: 15px;
+    font-size:65px;
+    font-weight: 100;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.Prod10, .Prod11, .Prod12{
+    line-height: 63.6%;
+    margin-top: 15px;
+    font-size:65px;
+    font-weight: 100;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.Prod13, .Prod14, .Prod15{
+    line-height: 63.6%;
+    margin-top: 15px;
+    font-size:65px;
+    font-weight: 100;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
 }
 
 .DescripP1, .DescripP2, .DescripP3{
-    margin-top: 275px;
+    margin-top: 340px;
     padding: 10px 10px;
     background-color: #472929;
     height: 40%;
     width:  100%;
     color: white;
 } 
+
+.ContenedorBut{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    
+}
+.ButtVer1{
+    background-color: #472929;
+    border-radius: 15px;
+    padding: 30px 80px;
+    margin-left: 41.6%;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+.PQuien{
+    width: 100%;
+    height: 250px;
+
+    text-align: center;
+}
+
+.TitleQuien{
+    font-size: 100px;   
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.txtQuien{
+    font-size: 24px;
+}
+
+.Slogan{
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: 100;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+.Piecito{
+    background-color: #472929;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    top: 104%;
+    color: white;
+    justify-content: center;
+    padding: 0.5% 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.ListaCon{
+    margin: 0 2%;
+}
 
 .TarjetaProd1{
     background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
@@ -93,17 +207,16 @@ li{
     width: 280px;
     height: 500px;
     filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
-    margin-bottom: 1000px;
     border-radius: 5px;
 }
 .TarjetaProd2{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(../imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
     height: 500px;
     filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
-    margin-bottom: 1000px;
+
     border-radius: 5px;
     
 }
@@ -114,11 +227,116 @@ li{
     width: 280px;
     height: 500px;
     filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
-    margin-bottom: 1000px;
     border-radius: 5px;
 }
-
-
+.TarjetaProd4{
+    background-image: url(../imagenes/espagetis/pexels-jackie-王-5203691.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd5{
+    background-image: url(../imagenes/espagetis/pexels-anthony-leong-2092906.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd6{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd7{
+    background-image: url(../imagenes/pizzas/pexels-victor-miyata-3682837.jpg);
+    background-size: 500px 450px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd8{
+    background-image: url(../imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd9{
+    background-image: url(../imagenes/pizzas/pexels-pixabay-262977.jpg);
+    background-size: 450px 500px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd10{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd11{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd12{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd13{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd14{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.TarjetaProd15{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
 
 
 
