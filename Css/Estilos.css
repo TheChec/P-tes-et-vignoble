@@ -7,10 +7,8 @@
     background-color: #472929;
     display: flex;
     position: fixed;
-    
-    
-   
-    
+    z-index: 1;
+    filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
 }
 
 .Logosi{
@@ -29,10 +27,82 @@ li{
     margin: 15px 30px;
 }
 
+.Logosi{
+    height: 67px;
+    margin-top:5px ;
+}
+
 .Video1{
     margin-top: -30px;
-    width: 1635px;
+    width: 1605px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    filter: drop-shadow(0px 13px 5px rgba(0, 0, 0, 0.35));
 }
+.TituloVid{
+    left: 38%;
+    padding-top: 130px;
+    margin-bottom: 600px;
+    position:relative;
+    z-index: 0;
+}
+
+.Section1{
+    position: relative;
+}
+
+.TituloRe{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 50px 0;
+
+    text-align: center;
+}
+
+.Section2{
+    display: flex;
+    
+
+}
+
+.Prod1, .Prod2{
+    margin-top: -2px;
+    font-size:65px;
+    font-weight: 100;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.DescripP1{
+    margin-top: 275px;
+    padding: 10px 10px;
+    background-color: #472929;
+    height: 40%;
+    width:  100%;
+    color: white;
+} 
+
+.TarjetaProd1{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: 275px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 500px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+    margin-bottom: 1000px;
+}
+.TarjetaProd2{
+    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 348px;
+    filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
 
 
 
@@ -80,6 +150,12 @@ a{
     font-weight: 450;
 }
 
+h1{
+    font-family: 'Ramadhan Mubarak';
+    color: #C4A665;
+}
+
 p{
+    font-size: 17px;
     font-family: 'Roboto';
 }
