@@ -7,10 +7,8 @@
     background-color: #472929;
     display: flex;
     position: fixed;
-    
-    
-   
-    
+    z-index: 1;
+    filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
 }
 
 .Logosi{
@@ -29,11 +27,31 @@ li{
     margin: 15px 30px;
 }
 
+.Logosi{
+    height: 67px;
+    margin-top:5px ;
+}
+
 .Video1{
     margin-top: -30px;
     width: 1635px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
+}
+.TituloVid{
+    left: 38%;
+    padding-top: 130px;
+    margin-bottom: 600px;
+    position:relative;
+    z-index: 0;
 }
 
+.Section1{
+    position: relative;
+}
 
 
 
