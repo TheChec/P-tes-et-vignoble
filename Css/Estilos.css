@@ -7,10 +7,14 @@ body::-webkit-scrollbar{
 *{
     scrollbar-width: 0px;
 }
-
-
-
-
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 0;
+    margin-bottom: 40px;
+}
 
 .NavegadorP{
     width: 100%;
@@ -26,23 +30,22 @@ body::-webkit-scrollbar{
 .Logosi{
     margin-right: 20%;
     margin-left: 5%;
+    height: 67px;
+    margin-top:5px ;
 }
 
 .ListaNav{
     list-style: none;
     display: flex;
     padding-left: -1px;
-    margin-left: 25%;
+    margin-left: 20%;
+    margin-right: 15%;
    
 }
+
 li{    
     display: flex;
-    margin: 15px 15px;
-}
-
-.Logosi{
-    height: 67px;
-    margin-top:5px ;
+    margin: 3% 7%;
 }
 
 .Video1{
@@ -55,9 +58,9 @@ li{
     filter: drop-shadow(0px 13px 5px rgba(0, 0, 0, 0.35));
 }
 .TituloVid{
-    left: 38%;
-    padding-top: 130px;
-    margin-bottom: 600px;
+    left: 40%;
+    padding-top: 8%;
+    margin-bottom: 40%;
     position:relative;
     z-index: 0;
 }
@@ -70,21 +73,36 @@ li{
 .TituloRe{
     font-size: 100px;
     font-weight: 100;
-    margin: 50px 0;
-
+    margin: 0.5% 0;
     text-align: center;
 }
 .TituloPa{
     font-size: 100px;
     font-weight: 100;
-    margin: px 0;
+    margin: 5% 0 0.5% 0;
 
     text-align: center;
 }
 .TituloPi{
     font-size: 100px;
     font-weight: 100;
-    margin: 50px 0;
+    margin: 0.5% 0 0.5% 0;
+
+    text-align: center;
+}
+
+.TituloVi{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0.5% 0 0.5% 0;
+
+    text-align: center;
+}
+
+.TituloPo{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0.5% 0 0.5% 0;
 
     text-align: center;
 }
@@ -92,14 +110,14 @@ li{
 .Section2{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 150px;
+    padding: 0 12%;
 
 }
 
 .Prod1, .Prod2, .Prod3{
     margin-left: 2%;
     line-height: 63.6%;
-    margin-top: 15px;
+    margin-top: 6%;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
@@ -108,7 +126,7 @@ li{
 .Prod4, .Prod5, .Prod6{
     margin-left: 2%;
     line-height: 63.6%;
-    margin-top: 15px;
+    margin-top: 6%;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
@@ -117,7 +135,7 @@ li{
 .Prod7, .Prod8, .Prod9{
     margin-left: 2%;
     line-height: 63.6%;
-    margin-top: 15px;
+    margin-top: 6%;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
@@ -126,7 +144,7 @@ li{
 .Prod10, .Prod11, .Prod12{
     margin-left: 2%;
     line-height: 63.6%;
-    margin-top: 15px;
+    margin-top: 6%;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
@@ -135,7 +153,7 @@ li{
 .Prod13, .Prod14, .Prod15{
     margin-left: 2%;
     line-height: 63.6%;
-    margin-top: 15px;
+    margin-top: 6%;
     font-size:65px;
     font-weight: 100;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
@@ -143,8 +161,8 @@ li{
 }
 
 .DescripP1, .DescripP2, .DescripP3{
-    margin-top: 340px;
-    padding: 10px 10px;
+    margin-top: 124%;
+    padding: 2% 3%;
     background-color: #472929;
     height: 40%;
     width:  100%;
@@ -154,14 +172,14 @@ li{
 .ContenedorBut{
     width: 100%;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 1.8%;
     padding-top: 8%;
     
 }
 .ButtVer1{
     background-color: #472929;
     border-radius: 15px;
-    padding: 30px 80px;
+    padding: 2% 5%;
     margin-left: 41.6%;
     color: white;
     font-weight: bold;
@@ -178,7 +196,7 @@ li{
 
 .TitleQuien{
     font-size: 100px;   
-    margin-bottom: 30px;
+    margin-bottom: 2%;
     font-weight: 100;
 }
 
@@ -187,18 +205,11 @@ li{
 }
 
 .Slogan{
-    margin-top: 50px;
+    margin-top: 2%;
     font-size: 100px;
     font-weight: 100;
 }
-html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
+
 .Piecito{
     background-color: #472929;
     display: flex;
