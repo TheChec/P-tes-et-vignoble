@@ -416,6 +416,12 @@ li{
     font-family: "Ramadhan Mubarak";
     src: url("../Fuente/Ramadhan Mubarak.ttf") format("truetype");
   }
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fuente/Roboto-Regular.ttf") format("truetype");
+}
+    
+
 
 a{
     font-family: 'Roboto';
