@@ -1,0 +1,187 @@
+
+
+body::-webkit-scrollbar{
+    width: 0px;
+    
+}
+*{
+    scrollbar-width: 0px;
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.NavegadorP{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: #472929;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
+}
+
+.Logosi{
+    width: 117px;
+    height: 67px;
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top:5px;
+}
+
+.ListaNav{
+    list-style: none;
+    display: flex;
+    padding-left: -1px;
+    margin-left: 20%;
+    margin-right: 15%;
+   
+}
+
+li{    
+    display: flex;
+    margin: 3% 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Piecito{
+    background-color: #472929;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    top: 104%;
+    width: 100%;
+    height: 20vh;
+    min-height: 15vh;
+    color: white;
+    justify-content: center;
+    padding: 0.5% 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.ListaCon{
+    width: 20vh;
+    margin: 2vh 3vh;
+}
+.ListaTer{
+    margin-top: 2vh;
+    margin-left: -5vh;
+    width: 45vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Ramadhan Mubarak";
+    src: url("../Fuente/Ramadhan Mubarak.ttf") format("truetype");
+  }
+
+a{
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 30px;
+    color: #C4A665;
+    font-weight: 450;
+}
+
+h1, h2{
+    font-family: 'Ramadhan Mubarak';
+    color: #C4A665;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Roboto';
+}

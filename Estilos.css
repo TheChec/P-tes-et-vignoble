@@ -49,9 +49,10 @@ li{
 }
 
 .Video1{
-    margin-top: -30px;
     width: 100%;
+    height: 110vh;
     position: absolute;
+    object-fit:cover;
     left: 0;
     top: 0;
     z-index: -1;
@@ -66,6 +67,8 @@ li{
 }
 
 .Section1{
+    margin-top: 80;
+    height: 110vh;
     position: relative;
     width: 100%;
 }
@@ -215,9 +218,10 @@ li{
     display: flex;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 150px;
     top: 104%;
+    width: 100%;
+    height: 20vh;
+    min-height: 15vh;
     color: white;
     justify-content: center;
     padding: 0.5% 0;
@@ -225,7 +229,13 @@ li{
     font-size: 20px;
 }
 .ListaCon{
-    margin: 0 2%;
+    width: 20vh;
+    margin: 2vh 3vh;
+}
+.ListaTer{
+    margin-top: 2vh;
+    margin-left: -5vh;
+    width: 45vh;
 }
 
 .TarjetaProd1{
@@ -415,7 +425,7 @@ a{
     font-weight: 450;
 }
 
-h1{
+h1, h2{
     font-family: 'Ramadhan Mubarak';
     color: #C4A665;
 }
