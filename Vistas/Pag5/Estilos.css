@@ -115,7 +115,7 @@ li{
 .PadreProd{
     width: 100%;
     display: flex;
-    margin-left: 12vh;
+    margin-left: 8vh;
     margin-top: 26vh;
     margin-bottom: 150px;
     flex-flow: row wrap;
@@ -210,7 +210,7 @@ li{
 
 @font-face {
     font-family: "Ramadhan Mubarak";
-    src: url("/Fuente/Ramadhan Mubarak.ttf") format("truetype");
+    src: url("../../Fuente/Ramadhan Mubarak.ttf") format("truetype");
   }
 
 a{
