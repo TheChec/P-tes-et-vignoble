@@ -239,7 +239,7 @@ li{
 }
 
 .TarjetaProd1{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -248,7 +248,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd2{
-    background-image: url(../imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
+    background-image: url(./imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -259,7 +259,7 @@ li{
     
 }
 .TarjetaProd3{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -268,7 +268,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd4{
-    background-image: url(../imagenes/espagetis/pexels-jackie-王-5203691.jpg);
+    background-image: url(./imagenes/espagetis/pexels-jackie-王-5203691.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -277,7 +277,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd5{
-    background-image: url(../imagenes/espagetis/pexels-anthony-leong-2092906.jpg);
+    background-image: url(./imagenes/espagetis/pexels-anthony-leong-2092906.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -286,7 +286,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd6{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -295,7 +295,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd7{
-    background-image: url(../imagenes/pizzas/pexels-victor-miyata-3682837.jpg);
+    background-image: url(./imagenes/pizzas/pexels-victor-miyata-3682837.jpg);
     background-size: 500px 450px;
     background-repeat: no-repeat;
     width: 280px;
@@ -304,7 +304,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd8{
-    background-image: url(../imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
+    background-image: url(./imagenes/pizzas/pexels-vincent-rivaud-2471171.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -313,7 +313,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd9{
-    background-image: url(../imagenes/pizzas/pexels-pixabay-262977.jpg);
+    background-image: url(./imagenes/pizzas/pexels-pixabay-262977.jpg);
     background-size: 450px 500px;
     background-repeat: no-repeat;
     width: 280px;
@@ -322,7 +322,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd10{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -331,7 +331,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd11{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -340,7 +340,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd12{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -349,7 +349,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd13{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -358,7 +358,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd14{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -367,7 +367,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd15{
-    background-image: url(../imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(./imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -414,11 +414,11 @@ li{
 
 @font-face {
     font-family: "Ramadhan Mubarak";
-    src: url("../Fuente/Ramadhan Mubarak.ttf") format("truetype");
+    src: url("./Fuente/Ramadhan Mubarak.ttf") format("truetype");
   }
 @font-face {
     font-family: "Roboto";
-    src: url("../Fuente/Roboto-Regular.ttf") format("truetype");
+    src: url("./Fuente/Roboto-Regular.ttf") format("truetype");
 }
     
 

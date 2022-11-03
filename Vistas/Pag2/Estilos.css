@@ -210,7 +210,7 @@ li{
 
 @font-face {
     font-family: "Ramadhan Mubarak";
-    src: url("/Fuente/Ramadhan Mubarak.ttf") format("truetype");
+    src: url("../../Fuente/Ramadhan Mubarak.ttf") format("truetype");
   }
 
 a{
