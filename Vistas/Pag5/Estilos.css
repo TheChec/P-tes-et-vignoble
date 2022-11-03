@@ -115,13 +115,10 @@ li{
 .PadreProd{
     width: 100%;
     display: flex;
-    margin-left: 8vh;
+    padding: 0 13.9%;
     margin-top: 26vh;
     margin-bottom: 150px;
-    flex-flow: row wrap;
-    padding: 20px 12%;
-    
-    
+    flex-flow: row wrap;  
 }
 
 .Prod1{
