@@ -261,7 +261,7 @@ li{
     
 }
 .TarjetaProd3{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(imagenes/postres/pexels-moldy-vintages-12258268.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -324,8 +324,8 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd10{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
-    background-size: 280px;
+    background-image: url(imagenes/vinos/pexels-brett-jordan-5466741.jpg);
+    background-size: 400px;
     background-repeat: no-repeat;
     width: 280px;
     height: 500px;
@@ -333,7 +333,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd11{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(imagenes/vinos/pexels-pavel-danilyuk-6405793.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -342,8 +342,8 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd12{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
-    background-size: 280px;
+    background-image: url(imagenes/vinos/pexels-brett-jordan-11431033.jpg);
+    background-size: 510px;
     background-repeat: no-repeat;
     width: 280px;
     height: 500px;
@@ -351,7 +351,7 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd13{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(imagenes/postres/pexels-moldy-vintages-12258268.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
@@ -360,17 +360,18 @@ li{
     border-radius: 5px;
 }
 .TarjetaProd14{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
+    background-image: url(imagenes/postres/pexels-moldy-vintages-8616795.jpg);
     background-size: 280px;
     background-repeat: no-repeat;
     width: 280px;
     height: 500px;
     filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
     border-radius: 5px;
+    
 }
 .TarjetaProd15{
-    background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
-    background-size: 280px;
+    background-image: url(imagenes/postres/pexels-mehrdad-badr-12916029.jpg);
+    background-size: 380px;
     background-repeat: no-repeat;
     width: 280px;
     height: 500px;
