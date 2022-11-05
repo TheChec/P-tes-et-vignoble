@@ -15,6 +15,10 @@ body{
     margin: 0;
     margin-bottom: 40px;
 }
+.header{
+    visibility: hidden;
+    display: none;
+}
 
 .NavegadorP{
     width: 100%;
@@ -26,6 +30,8 @@ body{
     z-index: 2;
     filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
 }
+
+
 
 .Logosi{
     width: 117px;
@@ -44,6 +50,7 @@ body{
    
 }
 
+
 li{    
     display: flex;
     margin: 3% 7%;
@@ -51,6 +58,7 @@ li{
 
 
 .Video1{
+
     width: 100%;
     height: 110vh;
     position: absolute;
@@ -239,6 +247,9 @@ li{
     margin-left: -5vh;
     width: 45vh;
 }
+.Pho{
+    height: 125px;
+}
 
 .TarjetaProd1{
     background-image: url(imagenes/espagetis/pexels-rachel-claire-4825746.jpg);
@@ -380,17 +391,184 @@ li{
 }
 
 
+@media only screen and (max-width:1280px){
+    .NavegadorP{
+        padding-right: 160px;
+    }
+    .Pho{
+        margin-left: 210px;
+    }
+    .ListaTer{
+        margin-left: -8vh;
+    }
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width:1400px){
+    .ListaNav{
+        margin-left: 12%;
+    }
+
+    .Pho{
+        margin-left: 130px;
+    }
+    body{
+        margin-bottom: 0px;
+    }
+    .Piecito{
+       height: 150px; 
+    }
+    .TituloVid{
+        left: 38%;
+    }
+}   
 
 
 
 
 
+@media screen and (max-width:800px ) {
+    .TarjetaProd1, .TarjetaProd2, .TarjetaProd3, .TarjetaProd4, .TarjetaProd5, .TarjetaProd6, .TarjetaProd7, .TarjetaProd8, .TarjetaProd9,
+    .TarjetaProd10, .TarjetaProd11, .TarjetaProd12, .TarjetaProd13, .TarjetaProd14, .TarjetaProd15{
+        margin-bottom: 80px;
+    }
+    .Section2{
+        display: flex;
+        width: 375px;
+        margin: 0;
+        padding: 0;
+        flex-flow: row wrap;
+    }
+    .TituloVid{
+        width: 250px;
+        left: 17%;
+    }
+    
+    .ButtVer1{
+        margin-left: 30%;
+    }
 
+    .Video1{
+        width: 375px;
+    }
 
+    .TitleQuien{
+        margin-top: -150px;
+        font-size: 80px;
+    }
+    .txtQuien{
+        font-size: 20px;
+    }
+    .Slogan{
+        font-size: 80px;
+   
+    }
+    .Piecito{
+        top:102%;
+        height: 120px;
+        bottom: 0;
+        padding: 10px 5px 10px 50px; 
+    }
+    .Pho{
+        margin-left: -20px;
+        width: 100px;
+        height: 100px;
+    }
+    .ListaCon{
+        margin: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        height: 100px;
+    }
 
+    .ListaTer{
+       display: none;
+       visibility: hidden;
+    }
 
+    .TituloPi, .TituloVi, .TituloPo, .TituloPo{
+        margin-top: -130px;
+    }
+    .TituloPa{
+        margin-top: -10px;
+    }
+    .TituloRe, .TituloPa, .TituloPi, .TituloVi, .TituloPo{
+        font-size: 80px;
+    }
 
+    .NavegadorP{
+        visibility: hidden;
+        display: none;
+    }
+    .header{
+        position: sticky;
+        z-index: 2;
+        visibility: visible;
+        display: contents;
+    }
+    
+    .visto{
+        left: 0 !important;
+    }
 
+    
+    .header .NavMobile {
+        background:#472929;
+    }
+    
+    
+    .header .NavMobile ul li a {
+        color:#C4A665;
+        padding:20px;
+        display:block;
+        text-decoration:none;
+    }
+    
+    .header .NavMobile ul li span {
+        margin-right:10px;
+    }
+    
+    .header .NavMobile {
+        width:80%;
+        height:560px;
+        left:-100%;
+        margin:0;
+       position: absolute;
+        z-index: 1;
+    }
+    
+    .header .NavMobile ul li {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+	.menu_bar {
+		width:100%;
+		background:#ccc;
+      
+        
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#472929;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+
+}
 
 
 

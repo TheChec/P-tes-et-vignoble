@@ -170,8 +170,60 @@ li{
     
 }
 
+@media only screen and (max-width:1280px){
+    .NavegadorP{
+        padding-right: 72px;
+    }
+    .Pho{
+        margin-left: 210px;
+    }
+    .ListaTer{
+        margin-left: -8vh;
+    }
+    .Logosi{
+        margin-right: 15%;
+        
+    }
+    .PadreProd{
+        margin-top: 22vh;
+        margin-bottom: 20px;
+    }
+    .ContenDescrip{
+        margin: 50% 0 0 74%;
+        width: 333px;
+    }
+    .Piecito{
+        position:relative;
+        bottom: 0;
+        
+    }
+    body{
+        margin-bottom: -100px;
+    }
+}
 
+@media only screen and (min-width: 1300px) and (max-width:1400px){
+    .ListaNav{
+        margin-left: 12%;
+    }
 
+    .PadreProd{
+        margin-top: 15vh;
+    }
+
+    .Pho{
+        margin-left: 130px;
+    }
+    .PadreProd{
+        margin-bottom: 180px;
+    }
+    body{
+        margin-bottom: 0px;
+    }
+    .Piecito{
+        height: 150px; 
+    }
+} 
 
 
 
