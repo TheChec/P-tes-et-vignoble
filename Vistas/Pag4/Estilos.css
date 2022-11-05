@@ -26,6 +26,13 @@ body{
     z-index: 2;
     filter: drop-shadow(0px 13px 16px rgba(0, 0, 0, 0.40));
 }
+.header{
+    position: sticky;
+    z-index: 2;
+    visibility: visible;
+    display: contents;
+}
+
 
 .Logosi{
     width: 117px;
@@ -243,7 +250,7 @@ li{
     }
     .DrescripFet1{
         font-size: 15px;
-        width: 280px;
+        width: 275px;
         margin-right: 0;
     }
 
@@ -267,6 +274,22 @@ li{
         visibility: hidden;
         display: none;
     }
+    .icon-house{
+        margin-right: 10px;
+        
+    }
+    .icon-pasta{
+        margin-right: 12px;
+    }
+    .icon-pizza{
+        margin-right: 24.5px;
+    }
+    .icon-wine{
+        margin-right: 29.5px;
+    }
+    .icon-desserts{
+        margin-right: 21px;
+    }
 
     .visto{
         left: 0 !important;
@@ -285,9 +308,7 @@ li{
         text-decoration:none;
     }
 
-    .header .NavMobile ul li span {
-        margin-right:10px;
-    }
+    
 
     .header .NavMobile {
         width:80%;

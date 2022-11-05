@@ -199,6 +199,10 @@ li{
     box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.25);
     
 }
+.PhotoMobile{
+    display: none;
+    visibility: hidden;
+}
 
 .PQuien{
     width: 100%;
@@ -445,6 +449,16 @@ li{
         width: 250px;
         left: 17%;
     }
+    .PhotoMobile{
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        visibility: visible;
+        top: 0;
+        display: flex;
+        filter: drop-shadow(0px 13px 5px rgba(0, 0, 0, 0.35));
+
+    }
     
     .ButtVer1{
         margin-left: 30%;
@@ -452,6 +466,8 @@ li{
 
     .Video1{
         width: 375px;
+        display: none;
+        visibility: hidden;
     }
 
     .TitleQuien{
@@ -494,6 +510,9 @@ li{
     .TituloPa{
         margin-top: -10px;
     }
+    .TituloRe{
+        margin-top: -310px;
+    }
     .TituloRe, .TituloPa, .TituloPi, .TituloVi, .TituloPo{
         font-size: 80px;
     }
@@ -507,6 +526,22 @@ li{
         z-index: 2;
         visibility: visible;
         display: contents;
+    }
+    .icon-house{
+        margin-right: 10px;
+        
+    }
+    .icon-pasta{
+        margin-right: 12px;
+    }
+    .icon-pizza{
+        margin-right: 24.5px;
+    }
+    .icon-wine{
+        margin-right: 29.5px;
+    }
+    .icon-desserts{
+        margin-right: 21px;
     }
     
     .visto{
@@ -526,9 +561,6 @@ li{
         text-decoration:none;
     }
     
-    .header .NavMobile ul li span {
-        margin-right:10px;
-    }
     
     .header .NavMobile {
         width:80%;
