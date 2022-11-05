@@ -239,8 +239,9 @@ li{
     }
 
     .ContenDescrip{
-        margin: 120% 0 0 20%;
-        width: 300px;
+        margin: 120% 0 0 0;
+        width: 100%;
+        text-align: center;
         height: 180px;  
     }
     .TitFet1{
@@ -248,7 +249,8 @@ li{
     }
     .DrescripFet1{
         font-size: 15px;
-        width: 275px;
+        width: 100%;
+        text-align: center;
         margin-right: 0;
     }
 
