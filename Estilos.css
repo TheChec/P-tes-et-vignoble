@@ -458,6 +458,10 @@ li{
         display: flex;
         filter: drop-shadow(0px 13px 5px rgba(0, 0, 0, 0.35));
 
+
+    }
+    .Section1{
+        height: 600px;
     }
     
     .ButtVer1{
@@ -511,7 +515,7 @@ li{
         margin-top: -10px;
     }
     .TituloRe{
-        margin-top: -310px;
+        margin-top: 5%;
     }
     .TituloRe, .TituloPa, .TituloPi, .TituloVi, .TituloPo{
         font-size: 80px;
