@@ -1,8 +1,6 @@
-
-
-body::-webkit-scrollbar{
-    width: 0px;
-    
+ 
+ body::-webkit-scrollbar{
+    width: 0px;  
 }
 *{
     scrollbar-width: 0px;
@@ -15,7 +13,6 @@ body{
     margin: 0;
     margin-bottom: 40px;
 }
-
 .NavegadorP{
     width: 100%;
     height: 80px;
@@ -30,8 +27,6 @@ body{
     visibility: hidden;
     display: none;
 }
-
-
 .Logosi{
     width: 117px;
     height: 67px;
@@ -39,35 +34,29 @@ body{
     margin-left: 5%;
     margin-top:5px;
 }
-
 .ListaNav{
     list-style: none;
     display: flex;
     padding-left: -1px;
     margin-left: 20%;
-    margin-right: 15%;
-   
+    margin-right: 15%; 
 }
-
 li{    
     display: flex;
     margin: 3% 7%;
 }
-
 .Piecito{
     background-color: #472929;
     display: flex;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;   
     min-height: 15vh;
     color: white;
     justify-content: center;
     padding: 0.5% 0;
     font-family: 'Roboto';
     font-size: 20px;
-    
 }
 .ListaCon{
     width: 20vh;
@@ -78,7 +67,6 @@ li{
     margin-left: -5vh;
     width: 45vh;
 }
-
 .FP{
     width: 100%;
     height: 110vh;
@@ -90,7 +78,6 @@ li{
     filter: drop-shadow(0px 13px 5px rgba(0, 0, 0, 0.35));
 
 }
-
 .ContenDescrip{
     width: 500px;
     height: 220px;
@@ -100,14 +87,12 @@ li{
     position: relative;
     z-index: 1;
 }
-
 .TitFet1{
     margin: 5% 2% 0 4%;
     color: #472929;
     font-weight: lighter;
     font-size: 70px;
 }
-
 .DrescripFet1{
     width: 300px;
     margin: 0 0 0 5%;
@@ -116,7 +101,6 @@ li{
     color: #472929;
 
 }
-
 .PadreProd{
     width: 100%;
     display: flex;
@@ -131,9 +115,8 @@ li{
     background-color: #F1F4F7;
     margin: 10px 30px;
     padding: 10px 15px 2px 15px;
-    
-    border-radius: 10px;
-    
+
+    border-radius: 10px;   
 }
 
 .Img1{
@@ -155,23 +138,18 @@ li{
     float: left;
     width: 50%;
 }
-
 .tit1{
     line-height: 40px;
     font-weight: lighter;
     font-size: 60px;
-    margin-bottom: 8px;
-    
+    margin-bottom: 8px;    
 }
-
 .p1{
     width: 200px;
     color: #472929;
-    font-weight: bold;
-    
+    font-weight: bold; 
     font-family: Roboto;
-    font-size: 17px;
-    
+    font-size: 17px;   
 }
 .Pho{
     height: 125px;
@@ -228,15 +206,11 @@ li{
     .Piecito{
         height: 150px; 
     }
-}      
-
+}    
 @media screen and (max-width:800px ){
-
     .FP{
         z-index: -1;
     }
-
-
     .ContenDescrip{
         margin: 120% 0 0 0;
         width: 100%;
@@ -252,21 +226,16 @@ li{
         text-align: center;
         margin:0;
         padding: 0 5%;
-        
-        
     }
-
     .PadreProd{
         margin-top: 220px;
     }
-
     .Prod1{
         height: 320px;
     }
     .tit1{
         font-size: 50px;
     }
-
     .p1{
         font-size: 15px;
         width: 140px;
@@ -277,7 +246,6 @@ li{
         visibility: visible;
         display: contents;
     }
-
     .NavegadorP{
         visibility: hidden;
         display: none;
@@ -298,26 +266,18 @@ li{
     .icon-desserts{
         margin-right: 21px;
     }
-
     .visto{
         left: 0 !important;
     }
-
-
     .header .NavMobile {
         background:#472929;
     }
-
-
     .header .NavMobile ul li a {
         color:#C4A665;
         padding:20px;
         display:block;
         text-decoration:none;
     }
-
-   
-
     .header .NavMobile {
         width:80%;
         height:560px;
@@ -326,7 +286,6 @@ li{
         position: absolute;
         z-index: 2;
     }
-
     .header .NavMobile ul li {
         display:block;
         float:none;
@@ -335,10 +294,7 @@ li{
     .menu_bar {
         width:100%;
         background:#ccc;
-    
-        
     }
-
     .menu_bar .bt-menu {
         display:block;
         padding:20px;
@@ -350,9 +306,7 @@ li{
         -webkit-box-sizing:border-box;
         -moz-box-sizing:border-box;
         box-sizing:border-box;
-
     }
-
     .menu_bar span {
         float:right;
         font-size:40px;
@@ -374,63 +328,11 @@ li{
         font-size: 20px;
         height: 100px;
     }
-
     .ListaTer{
        display: none;
        visibility: hidden;
     }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @font-face {
     font-family: "Ramadhan Mubarak";
     src: url("../../Fuente/Ramadhan Mubarak.ttf") format("truetype");

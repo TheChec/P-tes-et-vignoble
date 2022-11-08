@@ -426,11 +426,6 @@ li{
         left: 38%;
     }
 }   
-
-
-
-
-
 @media screen and (max-width:800px ) {
     .TarjetaProd1, .TarjetaProd2, .TarjetaProd3, .TarjetaProd4, .TarjetaProd5, .TarjetaProd6, .TarjetaProd7, .TarjetaProd8, .TarjetaProd9,
     .TarjetaProd10, .TarjetaProd11, .TarjetaProd12, .TarjetaProd13, .TarjetaProd14, .TarjetaProd15{
@@ -607,30 +602,6 @@ li{
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @font-face {
     font-family: "Ramadhan Mubarak";
     src: url("Fuente/Ramadhan\ Mubarak.ttf") format("truetype");
